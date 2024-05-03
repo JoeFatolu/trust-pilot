@@ -1,0 +1,48 @@
+.tablists {
+  width: 20.4rem;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+}
+
+.tabItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-right: 0.1rem solid #d9d9d9;
+  overflow: hidden;
+  text-align: center;
+  unicode-bidi: normal;
+}
+
+.tabItem:last-child {
+  border-right: none;
+}
+
+.tabItem:last-child {
+  border-right: none;
+}
+
+.tabItemwrapper {
+  display: flex;
+  gap: 0.2rem;
+  padding: 0.3rem 1.8rem;
+  align-items: center;
+}
+
+.tabItemwrapper > p {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.2rem;
+  text-transform: capitalize;
+}
+
+.activeTab {
+  background-color: #6574ff;
+  color: #ffffff;
+}

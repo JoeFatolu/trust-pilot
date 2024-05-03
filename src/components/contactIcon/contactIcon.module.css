@@ -1,0 +1,26 @@
+.contactIcon {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.contactIcon:nth-child(3) {
+  margin-right: 8.5rem;
+}
+
+.iconcontainer {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f7f4;
+}
+
+.contacttext {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #000000;
+}

@@ -1,0 +1,45 @@
+.footer {
+  background-color: #000000;
+  padding: 9.8rem 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 7rem;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.footerContenttoplinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about > a,
+.community > a,
+.businesses > a {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.footerlinksheading {
+  color: #9fa0a0;
+}
+
+.about,
+.community,
+.businesses {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

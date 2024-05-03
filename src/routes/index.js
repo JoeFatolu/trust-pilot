@@ -1,0 +1,5 @@
+export { default as CategoriesDetails } from './categories/details'
+export { default as Categories } from './categories/index'
+export { default as Login } from './login/index'
+export { default as Company } from './company/index'
+export { default as Home } from './home/index'
